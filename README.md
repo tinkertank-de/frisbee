@@ -27,7 +27,8 @@ If you still haven't had enough, you can turn the frisbee upside down to the dar
 | hareware cost              | 23,50 €              | 55,00 €                | 29,00 €              | 40,00 €           | 15,00 €                  |
 
 # fair trade & regional
-We produce the frisbee boards as sustainable as possible and under fair working conditions in germany.
+We try to produce the frisbee boards as sustainable as possible and under fair working conditions in germany.
+We are experimenting with different technologies like Paper-PCBs or printing with conductive paint on wood as an eco-friendly alternative to epoxy-based PCBs.
 
 # open source
 The Frisbee, like its core, the Pi Pico, is completely open source and can be further developed, modified and used by all users under the Creative Commons 4.0 license.
