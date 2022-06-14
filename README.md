@@ -10,6 +10,14 @@ If you still haven't had enough, you can turn the frisbee upside down to the dar
 ![darkside](https://user-images.githubusercontent.com/84087178/173510602-0f383d07-d8e2-4701-b765-c77271a8d3dc.png)
 <br>*dark side of the ~~moon~~ frisbee*
 
+# usp
+
+it's plug and play like a *Makey Makey*, it's easy to reprogram like the *micro:bit*, it's cheap like an *arduino* and it's capable of running micropython for super fast and compile-free programming.
+and it's got a glowing RG-Bee-LED* shining through the pcb for instant feedback
+
+*reverse mounted neopixel LED
+
+
 # comparison
 |                            | Arduino Uno          | Makey Makey            | Micro:Bit            | Calliope          | Frisbee 2.0              |
 | -------------------------- | -------------------- | ---------------------- | -------------------- | ----------------- | ------------------------ |
