@@ -1,4 +1,4 @@
-# frisbee
+# Frisbee - the sustainable Microcontroller
 
 The Frisbee is your perfect tool to make new inventions out of e-waste, old toys and everyday objects.
 
