@@ -1,4 +1,4 @@
-# Frisbee - the sustainable Microcontroller
+# Tinkertank's Frisbee - the sustainable Microcontroller
 
 The Frisbee is your perfect tool to make new inventions out of e-waste, old toys and everyday objects.
 
@@ -32,3 +32,7 @@ We are experimenting with different technologies like Paper-PCBs or printing wit
 
 # open source
 The Frisbee, like its core, the Pi Pico, is completely open source and can be further developed, modified and used by all users under the Creative Commons 4.0 license.
+
+# about
+Tinkertank is a stationary and mobile makerspace based in Ludwigsburg, Germany, empowering kids and adults to the creative use of technology.
+www.tinkertank.de
