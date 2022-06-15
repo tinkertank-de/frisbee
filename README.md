@@ -12,13 +12,10 @@ If you still haven't had enough, you can turn the frisbee upside down to the dar
 
 # usp
 
-it's plug and play like a *Makey Makey*, it's easy to reprogram like the *micro:bit*, it's cheap like an *arduino* and it's capable of running micropython for super fast and compile-free programming.
-and it's got a glowing RG-Bee-LED* shining through the pcb for instant feedback
+it's plug and play like a [Makey Makey](https://makeymakey.com/), it's easy to reprogram like the [Micro:bit](https://microbit.org//), it's cheap like an [Arduino Nano](https://store.arduino.cc/collections/most-popular/products/arduino-nano-every-with-headers) and it's capable of running micropython for super fast and compile-free programming.
+Aaaaand it's got a super sweet RG-Bee-LED shining through the pcb for instant feedback. (reverse mounted neopixel LED)
 
-*reverse mounted neopixel LED
-
-
-# comparison
+# comparison sheet
 |                            | Arduino Uno          | Makey Makey            | Micro:Bit            | Calliope          | Frisbee 2.0              |
 | -------------------------- | -------------------- | ---------------------- | -------------------- | ----------------- | ------------------------ |
 | Image                      |                      |                        |                      |                   |                          |
