@@ -10,8 +10,9 @@ If you still haven't had enough, you can turn the frisbee upside down to the dar
 ![darkside](https://user-images.githubusercontent.com/84087178/173510602-0f383d07-d8e2-4701-b765-c77271a8d3dc.png)
 <br>*dark side of the ~~moon~~ frisbee*
 
-# usp
+# another microcontroller?
 
+yes, why not.
 it's plug and play like a [Makey Makey](https://makeymakey.com/), it's easy to reprogram like the [Micro:bit](https://microbit.org//), it's cheap like an [Arduino Nano](https://store.arduino.cc/collections/most-popular/products/arduino-nano-every-with-headers) and it's capable of running micropython for super fast and compile-free programming.
 Aaaaand it's got a super sweet RG-Bee-LED shining through the pcb for instant feedback. (reverse mounted neopixel LED)
 
