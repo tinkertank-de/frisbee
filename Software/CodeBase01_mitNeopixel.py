@@ -89,6 +89,31 @@ Pin21.direction=digitalio.Direction.INPUT
 touch_pad = board.GP16
 touch = touchio.TouchIn(touch_pad)
 
+highPin0= digitalio.DigitalInOut(board.GP0)
+highPin0.direction=digitalio.Direction.OUTPUT
+highPin0.value = 1
+
+highPin1= digitalio.DigitalInOut(board.GP1)
+highPin1.direction=digitalio.Direction.OUTPUT
+highPin1.value = 1
+
+highPin2= digitalio.DigitalInOut(board.GP2)
+highPin2.direction=digitalio.Direction.OUTPUT
+highPin2.value = 1
+
+highPin3= digitalio.DigitalInOut(board.GP26)
+highPin3.direction=digitalio.Direction.OUTPUT
+highPin3.value = 1
+
+highPin4= digitalio.DigitalInOut(board.GP27)
+highPin4.direction=digitalio.Direction.OUTPUT
+highPin4.value = 1
+
+highPin5= digitalio.DigitalInOut(board.GP28)
+highPin5.direction=digitalio.Direction.OUTPUT
+highPin5.value = 1
+
+
 
 # funktions
 def readPin10():
@@ -334,4 +359,6 @@ while True:
     else:
         pixels[0]=(BLACK)
         pixels.show()
+        
+    print('')
         
