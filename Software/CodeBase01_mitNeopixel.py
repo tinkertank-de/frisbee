@@ -130,17 +130,17 @@ def readPin10():
 
 
     if allCount == readings-1:
-        print(myReadings10, end="")
-        print(' : ', end="")
+        # print(myReadings10, end="")
+        # print(' : ', end="")
         
         if smoothed10 > 8:
             up = 1
             ledStatus = 1
             nextColor=GREEN
-            print('high ', end="")
+            # print('high ', end="")
         else:
             up = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if up_old < up:
             keyboard_HID.press(Keycode.UP_ARROW)
         elif up_old > up:
@@ -160,17 +160,17 @@ def readPin11():
         
 
     if allCount == readings-1:
-        print(myReadings11, end="")
-        print(' : ', end="")
+        # print(myReadings11, end="")
+        # print(' : ', end="")
         
         if smoothed11 > 8:
             left = 1
             ledStatus = 1
             nextColor=GREEN
-            print('high ', end="")
+            # print('high ', end="")
         else:
             left = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if left_old < left:
             keyboard_HID.press(Keycode.LEFT_ARROW)
         elif left_old > left:
@@ -190,17 +190,17 @@ def readPin12():
         
 
     if allCount == readings-1:
-        print(myReadings12, end="")
-        print(' : ', end="")
+        # print(myReadings12, end="")
+        # print(' : ', end="")
         
         if smoothed12 > 8:
             right = 1
             ledStatus = 1
             nextColor=GREEN
-            print('high ', end="")
+            # print('high ', end="")
         else:
             right = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if right_old < right:
                 keyboard_HID.press(Keycode.RIGHT_ARROW)
         elif right_old > right:
@@ -220,17 +220,17 @@ def readPin13():
         
 
     if allCount == readings-1:
-        print(myReadings13, end="")
-        print(' : ', end="")
+        # print(myReadings13, end="")
+        # print(' : ', end="")
         
         if smoothed13 > 8:
             down = 1
             ledStatus = 1
             nextColor=GREEN
-            print('high ', end="")
+            # print('high ', end="")
         else:
             down = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if down_old < down:
             keyboard_HID.press(Keycode.DOWN_ARROW)
         elif down_old > down:
@@ -250,17 +250,17 @@ def readPin20():
         
 
     if allCount == readings-1:
-        print(myReadings20, end="")
-        print(' : ', end="")
+        # print(myReadings20, end="")
+        # print(' : ', end="")
         
         if smoothed20 > 8:
             click = 1
             ledStatus = 1
             nextColor=RED
-            print('high ', end="")
+            # print('high ', end="")
         else:
             click = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if click_old < click:
             mouse_HID.press(Mouse.LEFT_BUTTON)
         elif click_old > click:
@@ -279,17 +279,17 @@ def readPin21():
         
 
     if allCount == readings-1:
-        print(myReadings21, end="")
-        print(' : ', end="")
+        # print(myReadings21, end="")
+        # print(' : ', end="")
         
         if smoothed21 > 8:
             space = 1
             ledStatus = 1
             nextColor=BLUE                                                                        
-            print('high ', end="")
+            # print('high ', end="")
         else:
             space = 0
-            print('low  ', end="")
+            # print('low  ', end="")
         if space_old < space:
             keyboard_HID.press(Keycode.SPACEBAR)
         elif space_old > space:
@@ -298,7 +298,7 @@ def readPin21():
 def readTouchPoint():
     global touch, nextColor, ledStatus
     if touch.value:
-        print ("touched")
+        # print ("touched")
         nextColor =(YELLOW)
         ledStatus=1
     #time.sleep(0.05)
@@ -360,5 +360,5 @@ while True:
         pixels[0]=(BLACK)
         pixels.show()
         
-    print('')
+    print('')                                                                       
         
