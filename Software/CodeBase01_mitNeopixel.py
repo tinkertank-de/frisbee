@@ -335,6 +335,3 @@ while True:
         pixels[0]=(BLACK)
         pixels.show()
         
-    
-    print('')
-
