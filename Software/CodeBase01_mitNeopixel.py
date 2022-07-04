@@ -16,23 +16,19 @@ mouse_HID = Mouse(usb_hid.devices)
 
 ## ---- Definitions ---- ##
 
-keyValue = [0,0,0,0,0,0] # current pinValue
-keyValueOld = [0,0,0,0,0,0] # previous pinValue
-keyValueRaw = [0,0,0,0,0,0] # sum of pinValue Readings 
-readings = 0
-numReadings = 10
-threshold = 8
+pinValueOld = [0,0,0,0,0,0] # previous pinValues
+pinValue = [0,0,0,0,0,0]    # sum of pinValue Readings 
+numReadings = 10			# number of readings before evaluating
+threshold = 8    			# threshold to trigger key
 
 pixels = neopixel.NeoPixel(board.GP14, 1, brightness=1, auto_write=False)
 
 RED = (255, 0, 0)
 YELLOW = (255, 150, 0)
 GREEN = (0, 255, 0)
-CYAN = (0, 255, 255)
 BLUE = (0, 20, 255)
-PURPLE = (180, 0, 255)
 BLACK = (0,0,0)
-pxColor=BLACK
+pxColor = BLACK
 
 Pin10= digitalio.DigitalInOut(board.GP10)
 Pin10.direction=digitalio.Direction.INPUT
@@ -82,41 +78,38 @@ highPin5= digitalio.DigitalInOut(board.GP28)
 highPin5.direction=digitalio.Direction.OUTPUT
 highPin5.value = 1
 
-
 ## functions ##
 
-def sensePin(pinNr):
-    global keyValueRaw
-    
-    ## pin Auslesen und zu 'keyValueRaw' hinzufügen
-    if pinNr == 0:                      
-        keyValueRaw[0] += Pin10.value
-    elif pinNr == 1:
-        keyValueRaw[1] += Pin11.value
-    elif pinNr == 2:
-        keyValueRaw[2] += Pin12.value
-    elif pinNr == 3:
-        keyValueRaw[3] += Pin13.value
-    elif pinNr == 4:
-        keyValueRaw[4] += Pin20.value
-    elif pinNr == 5:
-        keyValueRaw[5] += Pin21.value
+def sensePin(pin):    # digital Read pins and add to 'pinValue' variable
+    global pinValue  
+    if pin == 0:                      
+        pinValue[0] += Pin10.value
+    elif pin == 1:
+        pinValue[1] += Pin11.value
+    elif pin == 2:
+        pinValue[2] += Pin12.value
+    elif pin == 3:
+        pinValue[3] += Pin13.value
+    elif pin == 4:
+        pinValue[4] += Pin20.value
+    elif pin == 5:
+        pinValue[5] += Pin21.value
 
-def evaluatePins():
+def evaluatePins():             # evaluate 'pinValue'
 	for i in range(6):
-		global keyValueRaw, keyValueOld, pxColor 
+		global pinValue, pinValueOld, pxColor 
 		
-		# print (keyValueRaw[i], end=" ")    ## print raw sum values for debugging
-		if keyValueRaw[i] > threshold:
-			keyValueRaw[i] = 1
-			if i < 4: pxColor = GREEN
+		# print (pinValue[i], end=" ")    	# print raw sum values for debugging
+		if pinValue[i] > threshold:			# see if pinValue is higher than threshold
+			pinValue[i] = 1
+			if i < 4: pxColor = GREEN		#arrow keys: green
 			elif i == 4: pxColor = RED
 			elif i == 5: pxColor = BLUE
 			
 		else:
-			keyValueRaw[i] = 0
+			pinValue[i] = 0					# not pressed
 			
-		if keyValueOld[i] < keyValueRaw[i]:
+		if pinValueOld[i] < pinValue[i]:	
 			if i == 0: keyboard_HID.press(Keycode.UP_ARROW)
 			elif i == 1: keyboard_HID.press(Keycode.LEFT_ARROW)
 			elif i == 2: keyboard_HID.press(Keycode.RIGHT_ARROW)
@@ -124,7 +117,7 @@ def evaluatePins():
 			elif i == 4: mouse_HID.press(Mouse.LEFT_BUTTON)
 			elif i == 5: keyboard_HID.press(Keycode.SPACEBAR)
 			
-		elif keyValueOld[i] > keyValueRaw[i]:
+		elif pinValueOld[i] > pinValue[i]:
 			if i == 0: keyboard_HID.release(Keycode.UP_ARROW)
 			elif i == 1: keyboard_HID.release(Keycode.LEFT_ARROW)
 			elif i == 2: keyboard_HID.release(Keycode.RIGHT_ARROW)
@@ -132,8 +125,8 @@ def evaluatePins():
 			elif i == 4: mouse_HID.release(Mouse.LEFT_BUTTON)
 			elif i == 5: keyboard_HID.release(Keycode.SPACEBAR)
 
-		keyValueOld[i] = keyValueRaw[i]		# save previous value
-		keyValueRaw[i] = 0   				# reset RawValue
+		pinValueOld[i] = pinValue[i]		# save previous value
+		pinValue[i] = 0   					# reset RawValue
 	
 def readTouchPoint():
     global touch, pxColor
