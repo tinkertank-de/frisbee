@@ -1,0 +1,678 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 60B7A2AC
+P 2750 3500
+F 0 "R1" V 2543 3500 50  0000 C CNN
+F 1 "560k" V 2634 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 3500 50  0001 C CNN
+F 3 "~" H 2750 3500 50  0001 C CNN
+	1    2750 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1500 2800 1500
+Connection ~ 3350 1500
+Wire Wire Line
+	2800 1500 2400 1500
+Connection ~ 2800 1500
+Wire Wire Line
+	2400 1500 1800 1500
+Connection ~ 2400 1500
+$Comp
+L Connector:TestPoint D0
+U 1 1 60B9D2CC
+P 4450 2150
+F 0 "D0" H 4508 2268 50  0000 L CNN
+F 1 "TestPoint" H 4508 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 4650 2150 50  0001 C CNN
+F 3 "~" H 4650 2150 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D1
+U 1 1 60B9D9EE
+P 4200 2150
+F 0 "D1" H 4258 2268 50  0000 L CNN
+F 1 "TestPoint" H 4258 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 4400 2150 50  0001 C CNN
+F 3 "~" H 4400 2150 50  0001 C CNN
+	1    4200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D2
+U 1 1 60B9DB8B
+P 3900 2150
+F 0 "D2" H 3958 2268 50  0000 L CNN
+F 1 "TestPoint" H 3958 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 4100 2150 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    3900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D3
+U 1 1 60B9DEF9
+P 3600 2150
+F 0 "D3" H 3658 2268 50  0000 L CNN
+F 1 "TestPoint" H 3658 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3800 2150 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D10/Up1
+U 1 1 60BA2C13
+P 3050 3450
+F 0 "D10/Up1" H 3108 3568 50  0000 L CNN
+F 1 "TestPoint" H 3108 3477 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3250 3450 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D11/Left1
+U 1 1 60BA3911
+P 3050 3700
+F 0 "D11/Left1" H 3108 3818 50  0000 L CNN
+F 1 "TestPoint" H 3108 3727 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3250 3700 50  0001 C CNN
+F 3 "~" H 3250 3700 50  0001 C CNN
+	1    3050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D14/Click1
+U 1 1 60BA44EA
+P 2900 4800
+F 0 "D14/Click1" H 2958 4918 50  0000 L CNN
+F 1 "TestPoint" H 2958 4827 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3100 4800 50  0001 C CNN
+F 3 "~" H 3100 4800 50  0001 C CNN
+	1    2900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D15/Space1
+U 1 1 60BA4B44
+P 2900 5050
+F 0 "D15/Space1" H 2958 5168 50  0000 L CNN
+F 1 "TestPoint" H 2958 5077 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3100 5050 50  0001 C CNN
+F 3 "~" H 3100 5050 50  0001 C CNN
+	1    2900 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3500 3050 3450
+Wire Wire Line
+	2900 5200 2900 5050
+$Comp
+L Connector:TestPoint A2
+U 1 1 60BAEF98
+P 7250 2750
+F 0 "A2" H 7308 2868 50  0000 L CNN
+F 1 "TestPoint" H 7308 2777 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 7450 2750 50  0001 C CNN
+F 3 "~" H 7450 2750 50  0001 C CNN
+	1    7250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint A1
+U 1 1 60BAF680
+P 7800 2750
+F 0 "A1" H 7858 2868 50  0000 L CNN
+F 1 "TestPoint" H 7858 2777 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 8000 2750 50  0001 C CNN
+F 3 "~" H 8000 2750 50  0001 C CNN
+	1    7800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint A0
+U 1 1 60BAF947
+P 8350 2750
+F 0 "A0" H 8408 2868 50  0000 L CNN
+F 1 "TestPoint" H 8408 2777 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 8550 2750 50  0001 C CNN
+F 3 "~" H 8550 2750 50  0001 C CNN
+	1    8350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3050 8350 3050
+Wire Wire Line
+	8350 3050 8350 2750
+Wire Wire Line
+	6350 2950 7800 2950
+Wire Wire Line
+	7800 2950 7800 2750
+Wire Wire Line
+	6350 2750 7250 2750
+Wire Wire Line
+	3050 3750 3050 3700
+Wire Wire Line
+	8200 2150 8500 2150
+$Comp
+L Device:R R6
+U 1 1 60C45F85
+P 2300 5200
+F 0 "R6" V 2093 5200 50  0000 C CNN
+F 1 "560k" V 2184 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2230 5200 50  0001 C CNN
+F 3 "~" H 2300 5200 50  0001 C CNN
+	1    2300 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60C4678C
+P 2200 4800
+F 0 "R5" V 1993 4800 50  0000 C CNN
+F 1 "560k" V 2084 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2130 4800 50  0001 C CNN
+F 3 "~" H 2200 4800 50  0001 C CNN
+	1    2200 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 3500 2900 3500
+Wire Wire Line
+	2450 5200 2900 5200
+Wire Wire Line
+	6950 2050 6950 2150
+Wire Wire Line
+	3350 1500 4750 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 60BA9658
+P 4750 1500
+F 0 "#PWR0102" H 4750 1250 50  0001 C CNN
+F 1 "GND" H 4755 1327 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2350 7000 2350
+$Comp
+L power:GND #PWR0104
+U 1 1 60BAD105
+P 4950 2350
+F 0 "#PWR0104" H 4950 2100 50  0001 C CNN
+F 1 "GND" H 4955 2177 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0001 C CNN
+	1    4950 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60BB4126
+P 4950 2850
+F 0 "#PWR0106" H 4950 2600 50  0001 C CNN
+F 1 "GND" H 4955 2677 50  0000 C CNN
+F 2 "" H 4950 2850 50  0001 C CNN
+F 3 "" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 60BBAF2E
+P 4900 3850
+F 0 "#PWR0108" H 4900 3600 50  0001 C CNN
+F 1 "GND" H 4905 3677 50  0000 C CNN
+F 2 "" H 4900 3850 50  0001 C CNN
+F 3 "" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 3850 4900 3850
+$Comp
+L power:GND #PWR0109
+U 1 1 60BBE9CB
+P 6400 3850
+F 0 "#PWR0109" H 6400 3600 50  0001 C CNN
+F 1 "GND" H 6405 3677 50  0000 C CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 3850 6400 3850
+$Comp
+L power:GND #PWR0110
+U 1 1 60BC2430
+P 7400 3700
+F 0 "#PWR0110" H 7400 3450 50  0001 C CNN
+F 1 "GND" H 7405 3527 50  0000 C CNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3350 7400 3350
+NoConn ~ 6350 2250
+NoConn ~ 6350 2450
+NoConn ~ 6350 2650
+NoConn ~ 6350 2850
+NoConn ~ 6350 3150
+NoConn ~ 6350 3450
+NoConn ~ 6350 3950
+NoConn ~ 6350 4050
+NoConn ~ 5750 4250
+NoConn ~ 5550 4250
+$Comp
+L power:GND #PWR0103
+U 1 1 60BA9C7C
+P 7000 2350
+F 0 "#PWR0103" H 7000 2100 50  0001 C CNN
+F 1 "GND" H 7005 2177 50  0000 C CNN
+F 2 "" H 7000 2350 50  0001 C CNN
+F 3 "" H 7000 2350 50  0001 C CNN
+	1    7000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4800 1850 4800
+Connection ~ 1850 4800
+Wire Wire Line
+	2900 4800 2350 4800
+$Comp
+L Device:LED LED1
+U 1 1 60C56C0F
+P 8100 3700
+F 0 "LED1" H 8093 3917 50  0000 C CNN
+F 1 "LED" H 8093 3826 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8100 3700 50  0001 C CNN
+F 3 "~" H 8100 3700 50  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60C572F9
+P 8450 3550
+F 0 "R7" H 8520 3596 50  0000 L CNN
+F 1 "220" H 8520 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8380 3550 50  0001 C CNN
+F 3 "~" H 8450 3550 50  0001 C CNN
+	1    8450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3250 8450 3250
+Wire Wire Line
+	8450 3250 8450 3400
+Wire Wire Line
+	8450 3700 8250 3700
+Wire Wire Line
+	7400 3700 7400 3350
+Wire Wire Line
+	7950 3700 7400 3700
+Connection ~ 7400 3700
+Wire Wire Line
+	3050 3750 2900 3750
+$Comp
+L Device:R R2
+U 1 1 60C4557E
+P 2750 3750
+F 0 "R2" V 2543 3750 50  0000 C CNN
+F 1 "560k" V 2634 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 3750 50  0001 C CNN
+F 3 "~" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 3750 2600 3750
+Wire Wire Line
+	2600 3500 1850 3500
+Wire Wire Line
+	1850 3500 1850 3750
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 60B791A5
+P 5650 3100
+F 0 "U1" H 5650 4315 50  0000 C CNN
+F 1 "Pico" H 5650 4224 50  0000 C CNN
+F 2 "Frisbee_v01:RPi_Pico_SMD_TH" V 5650 3100 50  0001 C CNN
+F 3 "" H 5650 3100 50  0001 C CNN
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 60CAE2F6
+P 5650 4250
+F 0 "#PWR0111" H 5650 4000 50  0001 C CNN
+F 1 "GND" H 5655 4077 50  0000 C CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 1500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C41BDA
+P 4750 1500
+F 0 "#FLG0101" H 4750 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 1673 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "~" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2150 8200 2550
+Wire Wire Line
+	2150 5200 1850 5200
+Connection ~ 1850 5200
+Wire Wire Line
+	1850 5200 1850 5450
+$Comp
+L power:GND #PWR0101
+U 1 1 61784845
+P 4950 3350
+F 0 "#PWR0101" H 4950 3100 50  0001 C CNN
+F 1 "GND" H 4955 3177 50  0000 C CNN
+F 2 "" H 4950 3350 50  0001 C CNN
+F 3 "" H 4950 3350 50  0001 C CNN
+	1    4950 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61784F93
+P 1850 5450
+F 0 "#PWR0107" H 1850 5200 50  0001 C CNN
+F 1 "GND" H 1855 5277 50  0000 C CNN
+F 2 "" H 1850 5450 50  0001 C CNN
+F 3 "" H 1850 5450 50  0001 C CNN
+	1    1850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2150 6950 2150
+$Comp
+L Connector:TestPoint D4
+U 1 1 61872012
+P 3350 2150
+F 0 "D4" H 3408 2268 50  0000 L CNN
+F 1 "TestPoint" H 3408 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3550 2150 50  0001 C CNN
+F 3 "~" H 3550 2150 50  0001 C CNN
+	1    3350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D5
+U 1 1 618721FD
+P 3100 2150
+F 0 "D5" H 3158 2268 50  0000 L CNN
+F 1 "TestPoint" H 3158 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3300 2150 50  0001 C CNN
+F 3 "~" H 3300 2150 50  0001 C CNN
+	1    3100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D6
+U 1 1 618723AF
+P 2850 2150
+F 0 "D6" H 2908 2268 50  0000 L CNN
+F 1 "TestPoint" H 2908 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3050 2150 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D7
+U 1 1 618725D3
+P 2600 2150
+F 0 "D7" H 2658 2268 50  0000 L CNN
+F 1 "TestPoint" H 2658 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 2800 2150 50  0001 C CNN
+F 3 "~" H 2800 2150 50  0001 C CNN
+	1    2600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2150 4450 2150
+Wire Wire Line
+	4950 2250 4200 2250
+Wire Wire Line
+	4200 2250 4200 2150
+Wire Wire Line
+	4950 2450 3900 2450
+Wire Wire Line
+	3900 2450 3900 2150
+Wire Wire Line
+	4950 2550 3600 2550
+Wire Wire Line
+	3600 2550 3600 2150
+Wire Wire Line
+	4950 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 2150
+Wire Wire Line
+	4950 2750 3100 2750
+Wire Wire Line
+	3100 2750 3100 2150
+Wire Wire Line
+	4950 2950 2850 2950
+Wire Wire Line
+	2850 2950 2850 2150
+Wire Wire Line
+	4950 3050 2600 3050
+Wire Wire Line
+	2600 3050 2600 2150
+Connection ~ 1850 3750
+Wire Wire Line
+	1850 4800 1850 5200
+Connection ~ 1850 4050
+Wire Wire Line
+	1850 4050 1850 3750
+Wire Wire Line
+	1850 4350 1850 4800
+Wire Wire Line
+	2550 4350 3050 4350
+Connection ~ 1850 4350
+Wire Wire Line
+	2250 4350 1850 4350
+Wire Wire Line
+	1850 4050 1850 4350
+Wire Wire Line
+	1850 4050 2000 4050
+Wire Wire Line
+	3050 4050 2300 4050
+$Comp
+L Device:R R4
+U 1 1 60C45BB9
+P 2400 4350
+F 0 "R4" V 2193 4350 50  0000 C CNN
+F 1 "560k" V 2284 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2330 4350 50  0001 C CNN
+F 3 "~" H 2400 4350 50  0001 C CNN
+	1    2400 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60C457F6
+P 2150 4050
+F 0 "R3" V 1943 4050 50  0000 C CNN
+F 1 "560k" V 2034 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2080 4050 50  0001 C CNN
+F 3 "~" H 2150 4050 50  0001 C CNN
+	1    2150 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4350 3050 4300
+Wire Wire Line
+	3050 4050 3050 4000
+$Comp
+L Connector:TestPoint D13/Down1
+U 1 1 60BA36FA
+P 3050 4300
+F 0 "D13/Down1" H 3108 4418 50  0000 L CNN
+F 1 "TestPoint" H 3108 4327 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3250 4300 50  0001 C CNN
+F 3 "~" H 3250 4300 50  0001 C CNN
+	1    3050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint D12/Right1
+U 1 1 60BA343F
+P 3050 4000
+F 0 "D12/Right1" H 3108 4118 50  0000 L CNN
+F 1 "TestPoint" H 3108 4027 50  0000 L CNN
+F 2 "Frisbee_v01:KrokoConnector" H 3250 4000 50  0001 C CNN
+F 3 "~" H 3250 4000 50  0001 C CNN
+	1    3050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3500 3550 3500
+Wire Wire Line
+	3550 3500 3550 3450
+Wire Wire Line
+	3550 3450 4950 3450
+Connection ~ 3050 3500
+Wire Wire Line
+	4950 3550 3650 3550
+Wire Wire Line
+	3650 3550 3650 3750
+Wire Wire Line
+	3650 3750 3050 3750
+Connection ~ 3050 3750
+Wire Wire Line
+	4950 3650 3750 3650
+Wire Wire Line
+	3750 4050 3050 4050
+Wire Wire Line
+	3750 3650 3750 4050
+Connection ~ 3050 4050
+Wire Wire Line
+	4950 3750 3900 3750
+Wire Wire Line
+	3900 3750 3900 4350
+Wire Wire Line
+	3900 4350 3050 4350
+Connection ~ 3050 4350
+Wire Wire Line
+	4950 3950 4500 3950
+Wire Wire Line
+	4500 3950 4500 4800
+Wire Wire Line
+	4500 4800 2900 4800
+Connection ~ 2900 4800
+Wire Wire Line
+	4950 4050 4600 4050
+Wire Wire Line
+	4600 4050 4600 5200
+Wire Wire Line
+	4600 5200 2900 5200
+Connection ~ 2900 5200
+Wire Wire Line
+	6350 2550 8200 2550
+NoConn ~ 4950 3150
+NoConn ~ 4950 3250
+NoConn ~ 6350 3750
+NoConn ~ 6350 3650
+NoConn ~ 6350 3550
+$Comp
+L Connector:TestPoint VBUS1
+U 1 1 60B9A00F
+P 6950 2050
+F 0 "VBUS1" H 7008 2168 50  0000 L CNN
+F 1 "TP VBUS" H 7008 2077 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 7150 2050 50  0001 C CNN
+F 3 "~" H 7150 2050 50  0001 C CNN
+	1    6950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND4
+U 1 1 60B9088F
+P 1800 1500
+F 0 "GND4" H 1858 1618 50  0000 L CNN
+F 1 "TestPoint" H 1858 1527 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 2000 1500 50  0001 C CNN
+F 3 "~" H 2000 1500 50  0001 C CNN
+	1    1800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND3
+U 1 1 60B9052A
+P 2400 1500
+F 0 "GND3" H 2458 1618 50  0000 L CNN
+F 1 "TestPoint" H 2458 1527 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 2600 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+	1    2400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND1
+U 1 1 60B901E0
+P 2800 1500
+F 0 "GND1" H 2858 1618 50  0000 L CNN
+F 1 "TestPoint" H 2858 1527 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3000 1500 50  0001 C CNN
+F 3 "~" H 3000 1500 50  0001 C CNN
+	1    2800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND2
+U 1 1 60B8F5EF
+P 3350 1500
+F 0 "GND2" H 3408 1618 50  0000 L CNN
+F 1 "TestPoint" H 3408 1527 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 3550 1500 50  0001 C CNN
+F 3 "~" H 3550 1500 50  0001 C CNN
+	1    3350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint PWR1
+U 1 1 60B793D4
+P 8500 2150
+F 0 "PWR1" H 8558 2268 50  0000 L CNN
+F 1 "TP 3v3" H 8558 2177 50  0000 L CNN
+F 2 "Frisbee_v01:Edgeconnector_SMD_version" H 8700 2150 50  0001 C CNN
+F 3 "~" H 8700 2150 50  0001 C CNN
+	1    8500 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,8 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,"R1,R2,R3,R6,R5,R4",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,6,3M,RMCF1206JT3M00
+2,"PWR1,PWR2",Edgeconnector_SMD_version,2,TP 3v3,
+3,"GND1,GND2,D1,A1,A2,A0,D0,D2",Edgeconnector_SMD_version,8,TestPoint,
+4,"D10/Up1,D12/Right1,D13/Down1,D21/Space1,D11/Left1,D22/Click1",KrokoConnector,6,TestPoint,
+5,R7,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,220,RMCF1206JT220R
+6,LED1,Reversegullwing_VLRE31R1S2GS08,1,LED,VLRE31R1S2GS08
+7,U1,RPi_Pico_SMD_TH_meins,1,Pico,SC0915

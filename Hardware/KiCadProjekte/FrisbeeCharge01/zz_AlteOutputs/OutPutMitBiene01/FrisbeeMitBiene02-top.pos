@@ -1,0 +1,33 @@
+### Module positions - created on Do 05 Mai 2022 23:13:37 CEST ###
+### Printed by Pcbnew version 6.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref            Val                             Package                               PosX       PosY       Rot  Side
+A0               TestPoint                       Edgeconnector_SMD_version         160.8328  -150.0378  -74.0000  top
+A1               TestPoint                       Edgeconnector_SMD_version         179.2478  -139.3952  -46.0000  top
+A2               TestPoint                       Edgeconnector_SMD_version         190.0118  -120.8791  -16.0000  top
+D0               TestPoint                       Edgeconnector_SMD_version         110.0836  -121.0056  -165.0000  top
+D1               TestPoint                       Edgeconnector_SMD_version         120.8278  -139.5476  -133.0000  top
+D2               TestPoint                       Edgeconnector_SMD_version         139.3952  -150.0886  -106.0000  top
+D10/Up1          TestPoint                       KrokoConnector                    123.7488  -101.3968  -90.0000  top
+D11/Left1        TestPoint                       KrokoConnector                    131.6482  -109.8804    0.0000  top
+D12/Right1       TestPoint                       KrokoConnector                    115.7732  -109.9820  180.0000  top
+D13/Down1        TestPoint                       KrokoConnector                    123.7500  -118.0000  -90.0000  top
+D20/Click1       TestPoint                       KrokoConnector                    175.0314  -116.8908   90.0000  top
+D21/Space1       TestPoint                       KrokoConnector                    175.0000  -102.5000  -90.0000  top
+GND1             TestPoint                       Edgeconnector_SMD_version         109.8505   -99.4437  165.0000  top
+GND2             TestPoint                       Edgeconnector_SMD_version         120.4768   -80.8528  135.0000  top
+NeoPixel1        NeoPixel_THT_RevMountAnpassung  NeoPixelReverseMountAnpassung     150.1000  -134.8000  180.0000  top
+OesenPinHeader1  Conn_01x03_Female               PinHeader_1x03_P2.54mm_Vertical   152.7250  -146.6000  -90.0000  top
+PWR1             TP_3v3                          Edgeconnector_SMD_version         190.1642   -99.4913   16.0000  top
+PWR2             TP_3v3                          Edgeconnector_SMD_version         179.4256   -80.8482   47.0000  top
+R1               3M                              R_1206_3216Metric                 133.9596   -91.9734  180.0000  top
+R2               3M                              R_1206_3216Metric                 133.9596   -94.7420  180.0000  top
+R3               3M                              R_1206_3216Metric                 131.5212  -119.8372  180.0000  top
+R4               3M                              R_1206_3216Metric                 131.5212  -122.6820  180.0000  top
+R5               3M                              R_1206_3216Metric                 167.2330  -104.4194    0.0000  top
+R6               3M                              R_1206_3216Metric                 167.2076  -101.6254    0.0000  top
+R7               300                             R_1206_3216Metric                 140.3350  -126.0856    0.0000  top
+R8               1M                              R_1206_3216Metric                 160.0000  -126.0000  180.0000  top
+U1               Pico                            RPi_Pico_SMD_TH_meins             150.0000   -93.0000    0.0000  top
+## End

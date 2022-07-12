@@ -1,0 +1,7 @@
+### Module positions - created on Do 05 Mai 2022 23:13:37 CEST ###
+### Printed by Pcbnew version 6.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref             Val        Package                PosX       PosY       Rot  Side
+BieneTouchPoint1  TestPoint  testbiene         -149.7816  -134.1732  180.0000  bottom
+## End

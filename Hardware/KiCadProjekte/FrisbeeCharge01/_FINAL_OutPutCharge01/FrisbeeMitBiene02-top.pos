@@ -1,0 +1,15 @@
+### Module positions - created on Fr 06 Mai 2022 01:23:59 CEST ###
+### Printed by Pcbnew version 6.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                     PosX       PosY       Rot  Side
+R1        3M        R_1206_3216Metric       133.9596   -91.9734  180.0000  top
+R2        3M        R_1206_3216Metric       133.9596   -94.7420  180.0000  top
+R3        3M        R_1206_3216Metric       131.5212  -119.8372  180.0000  top
+R4        3M        R_1206_3216Metric       131.5212  -122.6820  180.0000  top
+R5        3M        R_1206_3216Metric       167.2330  -104.4194    0.0000  top
+R6        3M        R_1206_3216Metric       167.2076  -101.6254    0.0000  top
+R7        300       R_1206_3216Metric       140.3350  -126.0856    0.0000  top
+R8        1M        R_1206_3216Metric       160.0000  -126.0000  180.0000  top
+U1        Pico      RPi_Pico_SMD_TH_meins   150.0000   -93.0000    0.0000  top
+## End
